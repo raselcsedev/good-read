@@ -4,10 +4,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
+    /* position: sticky; */
     padding: 0 100px;
-    top: 0;
-    z-index: 1;
+    /* top: 0; */
+    /* z-index: 1; */
   }
   
   .navbar h1 {

@@ -1,0 +1,7 @@
+.book-details{
+    background-color: aqua;
+}    
+.sticky{
+    position: sticky;
+    top: 0;
+}

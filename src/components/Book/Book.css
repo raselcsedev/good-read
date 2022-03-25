@@ -1,16 +1,37 @@
 .book{
     margin: 20px;
     border-radius: 20px;
-    background-color: #c4c4c4;
-    padding: 15px;
-    width: 250px;
+    background-color:azure;
+    width: 280px;
+    height: 500px;
+    position: relative;
     
 }
 .book img{
     height: 280px;
-    width:250px;
+    width:100%;
     border-radius: 10px;
 }
 .book-info{
-    margin: 20px;
+    margin-bottom: 5px;
+    line-height: normal;
+    padding-left: 10px;
+}
+.btn-cart{
+    width: 100%;
+    background: #b3fff2;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-cart .btn-text{
+    margin-right: 5px;
+}
+.btn-cart:hover{
+    background-color:blue;
+    color: aliceblue;
 }
