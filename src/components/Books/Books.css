@@ -1,0 +1,15 @@
+.books{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+
+@media screen and (maximum:700px){
+    .books{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    
+}

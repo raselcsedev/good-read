@@ -2,33 +2,74 @@
     {
         "id": 1,
         "name": "The Hunger Games",
-        "img": "https://www.goodreads.com/book/photo/2767052-the-hunger-games",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722975l/2767052.jpg",
         "author": "Suzanne Collins",
         "price": "540",
         "description": "In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV."
       },
     {
-        "id": 1,
-        "name": "The Hunger Games",
-        "img": "https://www.goodreads.com/book/photo/2767052-the-hunger-games",
-        "author": "Suzanne Collins",
-        "price": "540",
-        "description": "In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV."
+        "id": 2,
+        "name": "The Fear",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398031787l/21888731.jpg",
+        "author": "Charlie Higson",
+        "price": "630",
+        "ratings": "4.36"
       },
     {
-        "id": 1,
-        "name": "The Hunger Games",
-        "img": "https://www.goodreads.com/book/photo/2767052-the-hunger-games",
-        "author": "Suzanne Collins",
-        "price": "540",
-        "description": "In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV."
+        "id": 3,
+        "name": "Harry Potter and the Half-Blood Prince",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587697303l/1._SX318_.jpg",
+        "author": "J.K. Rowling",
+        "price": "590",
+        "ratings": "4.57"
       },
     {
-        "id": 1,
-        "name": "The Hunger Games",
-        "img": "https://www.goodreads.com/book/photo/2767052-the-hunger-games",
-        "author": "Suzanne Collins",
-        "price": "540",
-        "description": "In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV."
+        "id": 4,
+        "name": "Reading Lolita in Tehran: A Memoir in Books",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397751318l/7603.jpg",
+        "author": "Azar Nafisi",
+        "price": "510",
+        "ratings": "3.67"
+      },
+    {
+        "id": 5,
+        "name": "A Clash of Kings",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567840212l/10572.jpg",
+        "author": "Justin Halpern",
+        "price": "490",
+        "ratings": "4.51"
+      },
+    {
+        "id": 6,
+        "name": "Sh*t My Dad Says",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370399211l/7821447.jpg",
+        "author": " Azar Nafisi",
+        "price": "510",
+        "ratings": "3.67"
+      },
+    {
+        "id": 7,
+        "name": "Obit",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585173082l/53029244._SX318_SY475_.jpg",
+        "author": "Victoria Chang",
+        "price": "560",
+        "ratings": "4.30"
+      },
+    {
+        "id": 8,
+        "name": "Letters to My White Male Friends",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617075977l/55246081.jpg",
+        "author": "Dax-Devlon Ross",
+        "price": "460",
+        "ratings": "4.67"
+      },
+    {
+        "id": 9,
+        "name": "When We Make It",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617468430l/56462368.jpg",
+        "author": "Elisabet Velasquez",
+        "price": "420",
+        "ratings": "4.67"
       }
+    
 ]

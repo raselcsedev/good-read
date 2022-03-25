@@ -1,0 +1,16 @@
+.book{
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #c4c4c4;
+    padding: 15px;
+    width: 250px;
+    
+}
+.book img{
+    height: 280px;
+    width:250px;
+    border-radius: 10px;
+}
+.book-info{
+    margin: 20px;
+}
