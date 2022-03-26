@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Book from '../components/Book/Book';
-import BookDetails from '../components/BookDetails/BookDetails';
+import Book from '../Book/Book';
+import BookDetails from '../BookDetails/BookDetails';
 import './Gallery.css'
 
 const Gallery = () => {

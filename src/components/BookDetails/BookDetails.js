@@ -32,7 +32,7 @@ const BookDetails = ({cart}) => {
                         )
                     }
                     
-                    <h3>{book.name}</h3>
+                    <h3 className='book-name'>{book.name}</h3>
                     <button className='button' onClick={()=>chooseBookRandomly(cart)}>Choose One</button>
                     <button className='button' onClick={()=>removeBooks(cart)}>Choose Again</button>
                 </div>
