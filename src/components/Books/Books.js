@@ -8,13 +8,17 @@ const Books = () => {
         fetch('data.json')
         .then(res=>res.json())
         .then(data=>setBooks(data))
-    },[])
+    },[]);
+    const handleAddToCard = () =>{
+        console.log('clicked');
+    }
     return (
         <div className='books'>
             {
                 books.map((book)=> <Book 
                 key={book.id} 
                 book={book}
+                handleAddToCard ={handleAddToCard}
                 ></Book>)
             }
             

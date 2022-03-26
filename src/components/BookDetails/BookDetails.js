@@ -1,10 +1,15 @@
 import React from 'react';
 import './BookDetails.css'
 
-const BookDetails = () => {
+const BookDetails = ({cart}) => {
     return (
-        <div className='book-details'>
-            <h1 className='sticky'>sdjfhskfaskfasdjkf</h1>
+        <div className='sticky'>
+            <div >
+                <h1 >sdjfhskfaskfasdjkf</h1>
+                <p >selected zitem: {cart.length}</p>
+            </div>
+
+            
         </div>
     );
 };

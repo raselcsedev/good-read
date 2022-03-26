@@ -3,3 +3,28 @@
     grid-template-columns: 3fr 1fr;
     gap: 5px;
 }
+.books{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+.book-details{
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+}    
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
+@media screen and (max-width:1000px){
+    .books{
+        grid-template-columns: repeat(2, 1fr);  
+    }
+}
+@media screen and (max-width:700px){
+    .books{
+        grid-template-columns: repeat(1, 1fr);  
+    }
+}
