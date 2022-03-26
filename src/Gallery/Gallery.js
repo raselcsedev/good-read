@@ -13,7 +13,6 @@ const Gallery = () => {
         .then(data=>setBooks(data))
     },[]);
     const handleAddToCard = (book) =>{
-        console.log(book);
         const newCart = [...cart, book];
         setCart(newCart);
     }
