@@ -1,6 +1,6 @@
-# Getting Started with Good Reads React App
+# Getting Started with Good Reads App
 
-This project is developed with [Good Reads React App](https://zippy-kringle-284804.netlify.app/).
+This project is developed with [Good Reads React App Live Site](https://zippy-kringle-284804.netlify.app/).
 
 ## How React Works?
 
