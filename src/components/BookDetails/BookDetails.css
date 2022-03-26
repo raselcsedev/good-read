@@ -9,9 +9,9 @@
     border: none;
     color: black;
     font-size: medium;
+    margin-right: 10px;
 }
 .button:hover{
     background-color: brown;
     color: wheat;
-    font-size: large;
 }

@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+# Getting Started with Good Reads App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How React Works?
 
-In the project directory, you can run:
+  01. At its very core, React basically maintains a tree for. This  tree is able to do efficient diff computations on the nodes.
+  02. React allows to effectively re-construct DOM in JavaScript and push only those changes to the DOM which have actually occurred.
+  03. There's nothing like JSX - neither to JavaScript, nor to the browser. JSX is simply syntactic sugar for creating very specific JavaScript objects.
+  04. When starts writing nested stuff, not only is this difficult to code, but it also becomes very inconvenient to maintain such a codebase. JSX thus helps bring the cleanliness of HTML to the power of JavaScript.
+
 
 ### `npm start`
 

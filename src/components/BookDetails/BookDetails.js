@@ -14,6 +14,7 @@ const BookDetails = ({cart}) => {
                     }
                     
                     <button className='button'>Choose 1 for me</button>
+                    <button className='button'>Choose again</button>
                 </div>
             </div>
 

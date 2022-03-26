@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Book from '../components/Book/Book';
 import BookDetails from '../components/BookDetails/BookDetails';
-import Books from '../components/Books/Books';
 import './Gallery.css'
 
 const Gallery = () => {
@@ -18,6 +17,7 @@ const Gallery = () => {
         const newCart = [...cart, book];
         setCart(newCart);
     }
+    
     
     return (
         <div className='gallery'>
