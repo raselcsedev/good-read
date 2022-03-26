@@ -24,15 +24,17 @@ const Gallery = () => {
             <div className='books'>
             {
                 books.map((book)=> <Book 
-                key={book.id} 
-                book={book}
-                handleAddToCard ={handleAddToCard}
+                    key={book.id} 
+                    book={book}
+                    handleAddToCard ={handleAddToCard}
                 ></Book>)
             }
 
             </div>
             <div className='book-details'>
-                <BookDetails cart={cart}></BookDetails>
+                <BookDetails 
+                    cart={cart}
+                ></BookDetails>
 
             </div>
             
