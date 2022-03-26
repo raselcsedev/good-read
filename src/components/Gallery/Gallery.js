@@ -30,7 +30,7 @@ const Gallery = () => {
             }
 
             </div>
-            <div className='book-details'>
+            <div className='books-cart'>
                 <BookDetails 
                     cart={cart}
                 ></BookDetails>
