@@ -3,10 +3,18 @@ import './BookDetails.css'
 
 const BookDetails = ({cart}) => {
     return (
-        <div className='sticky'>
+        <div className='cart'>
             <div >
-                <h1 >sdjfhskfaskfasdjkf</h1>
-                <p >selected zitem: {cart.length}</p>
+                <h1 >Selected Books : {cart.length}</h1>
+                <div>
+                    {
+                        cart.map((item)=>
+                            <h4 key={item.id} >{item.name}</h4>
+                        )
+                    }
+                    
+                    <button className='button'>Choose 1 for me</button>
+                </div>
             </div>
 
             

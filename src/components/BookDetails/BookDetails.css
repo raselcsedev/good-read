@@ -1,4 +1,17 @@
-.sticky{
+.cart{
     position: sticky;
     top: 0;
+}
+.button{
+    padding: 10px;
+    background-color:wheat;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-size: medium;
+}
+.button:hover{
+    background-color: brown;
+    color: wheat;
+    font-size: large;
 }

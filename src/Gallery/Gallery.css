@@ -9,14 +9,11 @@
     gap: 5px;
 }
 .book-details{
-    background-color: aqua;
-    position: sticky;
-    top: 0;
+    background-color:lightblue;
+    padding: 30px;
+    
 }    
-.sticky{
-    position: sticky;
-    top: 0;
-}
+
 
 @media screen and (max-width:1000px){
     .books{
