@@ -24,7 +24,7 @@ const BookDetails = ({cart}) => {
     return (
         <div className='cart'>
             <div >
-                <h1 >Selected Books : {cart.length}</h1>
+                <h2>Selected Books : {cart.length}</h2>
                 <div>
                     {
                         cart.map((item)=>
@@ -32,9 +32,9 @@ const BookDetails = ({cart}) => {
                         )
                     }
                     
-                    <h1>{book.name}</h1>
-                    <button className='button' onClick={()=>chooseBookRandomly(cart)}>Choose 1 for me</button>
-                    <button className='button' onClick={()=>removeBooks(cart)}>Choose again</button>
+                    <h3>{book.name}</h3>
+                    <button className='button' onClick={()=>chooseBookRandomly(cart)}>Choose One</button>
+                    <button className='button' onClick={()=>removeBooks(cart)}>Choose Again</button>
                 </div>
             </div>
 

@@ -15,3 +15,9 @@
     background-color: brown;
     color: wheat;
 }
+
+@media screen and (max-width:700px){
+    .button{
+        margin-top: 10px;
+    }
+}
